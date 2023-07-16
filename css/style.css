@@ -122,7 +122,8 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+    z-index: 1;
 }
 
 .sidepanel__text {

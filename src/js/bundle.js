@@ -98,7 +98,7 @@ function calc() {
             } else {
                 input.style.border = 'none';
             }
-            switch(input.getAttribute('id')) {
+            switch (input.getAttribute('id')) {
                 case "height":
                     height = +input.value;
                     break;
@@ -741,8 +741,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-window.addEventListener('DOMContentLoaded', function() {
+window.addEventListener('DOMContentLoaded', function () {
     const modalTimerId = setTimeout(() => (0,_modules_modal__WEBPACK_IMPORTED_MODULE_1__.openModal)('.modal', modalTimerId), 50000);
 
     (0,_modules_tabs__WEBPACK_IMPORTED_MODULE_0__["default"])('.tabheader__item', '.tabcontent', '.tabheader__items', 'tabheader__item_active');

@@ -84,7 +84,7 @@ function calc() {
             } else {
                 input.style.border = 'none';
             }
-            switch(input.getAttribute('id')) {
+            switch (input.getAttribute('id')) {
                 case "height":
                     height = +input.value;
                     break;

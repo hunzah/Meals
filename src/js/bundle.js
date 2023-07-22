@@ -570,7 +570,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 function timer(id, deadline) {
     function getTimeRemaining(endtime) {
-        const t = Date.parse(endtime) - Date.parse(new Date()),
+        const t = Date.parse('2023-08-11T00:00:00') - Date.parse(new Date()),
             days = Math.floor( (t/(1000*60*60*24)) ),
             seconds = Math.floor( (t/1000) % 60 ),
             minutes = Math.floor( (t/1000/60) % 60 ),
@@ -622,6 +622,7 @@ function timer(id, deadline) {
 }
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (timer);
+
 
 /***/ }),
 
@@ -747,7 +748,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
     (0,_modules_tabs__WEBPACK_IMPORTED_MODULE_0__["default"])('.tabheader__item', '.tabcontent', '.tabheader__items', 'tabheader__item_active');
     (0,_modules_modal__WEBPACK_IMPORTED_MODULE_1__["default"])('[data-modal]', '.modal', modalTimerId);
-    (0,_modules_timer__WEBPACK_IMPORTED_MODULE_2__["default"])('.timer', '2022-06-11');
+    (0,_modules_timer__WEBPACK_IMPORTED_MODULE_2__["default"])('.timer', '2023-08-11T00:00:00');
     (0,_modules_cards__WEBPACK_IMPORTED_MODULE_3__["default"])();
     (0,_modules_calc__WEBPACK_IMPORTED_MODULE_4__["default"])();
     (0,_modules_forms__WEBPACK_IMPORTED_MODULE_5__["default"])('form', modalTimerId);
